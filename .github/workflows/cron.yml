@@ -1,8 +1,8 @@
-name: Cypress Github Tests
+name: Cron 15 minutes (deactivated)
 
-on:
-  schedule:
-    - cron: "*/15 * * * *"
+on: [pull_request]
+#  schedule:
+#    - cron: "*/15 * * * *"
 
 jobs:
   cypress-run:
