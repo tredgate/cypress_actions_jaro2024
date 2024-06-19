@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tredgate/cypress_actions_jaro2024#readme",
   "dependencies": {
+    "@cypress/grep": "^4.0.2",
     "cypress": "^13.12.0"
   }
 }
