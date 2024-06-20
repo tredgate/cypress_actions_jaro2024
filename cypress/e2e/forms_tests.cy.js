@@ -7,7 +7,7 @@ describe("Forms tests", () => {
     cy.get("#basic").should("be.checked");
   });
 
-  it("Check 2 Interests", () => {
+  it("Check 2 Interests", { tags: "@e2e" }, () => {
     // Buď po jednom:
     // cy.get('[name="interests[]"]').check("music");
     // cy.get('[name="interests[]"]').check("travel");
